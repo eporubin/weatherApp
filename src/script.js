@@ -25,8 +25,9 @@ function formatDate() {
 		"December",
 	];
 	let month = monthName[e.getMonth()];
-	let hour = e.getHours();
 	let minutes = e.getMinutes();
+	var e = new Date();
+	let hour = e.getHours();
 	let meridiem;
 	if (hour > 12) {
 		meridiem = "PM";
