@@ -56,11 +56,11 @@ h5,
 h6 {
 	overflow-wrap: break-word;
 }
-#celcius {
+.celcius {
 	text-decoration: none;
 	color: #fff;
 }
-#farin {
+.farin {
 	text-decoration: none;
 	color: #fff;
 }
@@ -70,6 +70,13 @@ h6 {
 #root,
 #__next {
 	isolation: isolate;
+}
+
+.link {
+	display: grid;
+	margin: 1% auto;
+	width: 90%;
+	max-width: 90%;
 }
 .root-container {
 	display: grid;
